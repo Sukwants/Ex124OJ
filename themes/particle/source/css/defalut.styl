@@ -1,0 +1,104 @@
+
+@font-face
+    font-family 'CascadiaCode'
+    src url('../css/fonts/CascadiaCode.ttf')
+
+body
+    background body-background
+    width 100%
+    font-family default-font-family
+    font-weight 500
+
+*
+    margin 0
+    padding 0
+    word-wrap break-word
+
+ul, ol
+    margin-top 15px !important
+    margin-bottom 10px !important
+    line-height 1.7
+
+    li
+        margin 8px auto
+
+h1, h2, h3, h4, h5
+    margin 15px 0
+    font-weight bold
+    font-family default-font-family
+    color text-font
+
+h1
+    font-size 30px
+
+h2
+    font-size 27px
+
+h3
+    font-size 24px
+
+h4
+    font-size 21px
+
+h5
+    font-size 18px
+
+p
+    margin 15px 0
+    line-height 1.7
+
+a
+    text-decoration none
+
+.icon
+    margin-right 5px
+    color label-color
+
+.ant-spin, .ant-spin-container
+    height 100vh !important
+    width 100vw !important
+    display flex !important
+    max-height 100vw !important
+    align-items center
+    text-align center
+
+    div
+        width 100vw
+
+    .ant-spin-dot
+        position relative !important
+        top 0 !important
+        left 0 !important
+        text-align center
+        width 200px
+        font-size 32px
+        display inline-block
+        margin auto !important
+
+.ant-spin-blur
+    opacity 0.8 !important
+
+    .show_page_content
+        color black
+
+.into-enter-active
+    animation into 0.6s
+
+.into-leave-active
+    animation into 0.6s
+
+@keyframes into
+    0%
+        opacity 0
+        transform scale(1.1)
+
+    100%
+        opacity 1
+        transform scale(1)
+
+@keyframes loading
+    0%
+        opacity 0
+
+    100%
+        opacity 1

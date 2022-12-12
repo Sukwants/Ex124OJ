@@ -1,0 +1,50 @@
+<% var rootlink = config.root %>
+<div id="archives">
+    <% site.posts.forEach(function(post){ %>
+    <a-timeline>
+        <a-timeline-item timestamp="<%- date(post.date, 'YYYY/M/D') %>" placement="top" color="#a5c2f5">
+            <a-card hoverable>
+                <div class="item-time"><%- date(post.date, 'YYYY/M/D') %></div>
+                <a href="<%- rootlink %><%- post.path %>">
+                    <h3><%= post.title %></h3>
+                </a>
+                <div class="info">
+                    <% if(post.categories && post.categories.data.length!=0){ %>
+                    <span class="category">
+                        <a href="<%- rootlink %>categories/<%= post.categories.data[0].name.replace(" ", "-") %>">
+                            <span class="icon"><a-icon type="book" theme="filled" /></span>
+                            <%- post.categories.data[0].name %>
+                        </a>
+                    </span>
+                    <% } %>
+
+                    <% if(post.tags && post.tags.data.length!=0){ %>
+                    <span class="tags">
+                        <span class="icon">
+                            <a-icon type="tags" />
+                        </span>
+                        <% post.tags.data.forEach(function(data){%>
+                        <span class="tag">
+                            <% 
+                                   if(theme.style == "night"){
+                                        var color = ['color:#607d8b', 'color:#6484be', 'color:#006674','color:#016a99']
+                                    }else if(theme.style == "maiden"){
+                                        var color = ['color:#ffa2c4', 'color:#00bcd4', 'color:#879cff', 'color:#1bccbc', 'color:#ff7d73'];
+                                    }else{
+                                        var color = ['color:#ffa2c4', 'color:#00bcd4', 'color:#03a9f4', 'color:#00a596', 'color:#ff7d73'];
+                                    }
+                                    var num = Math.floor(Math.random()*color.length);
+                                %>
+                            <a href="<%- rootlink %>tags/<%= data.name.replace(" ", "-") %>" style=<%- color[num] %>>
+                                <%- data.name %>
+                            </a>
+                        </span>
+                        <% }) %>
+                    </span>
+                    <% } %>
+                </div>
+            </a-card>
+        </a-timeline-item>
+    </a-timeline>
+    <% }) %>
+</div>

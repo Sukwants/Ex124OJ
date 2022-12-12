@@ -1,0 +1,114 @@
+
+.content
+
+    code
+        font-family code-font-family
+        background code-background
+        padding 4px 8px
+        border-radius 4px
+        font-size 14px
+        color code-font
+
+    pre
+        // background rgba(212, 235, 255, 0.161)
+        box-shadow 0 2px 12px 0 rgba(0, 0, 0, 0.1)
+        border 1px solid #ebeef5
+        padding 50px 30px 20px
+        margin 25px 0
+        border-radius 15px
+        overflow auto
+        position relative
+
+        code
+            background none
+            padding 0
+
+    h1, h2, h3, h4, h5
+        text-align left !important
+        margin 18px 0
+
+    a
+        color default-link
+        text-decoration none
+
+    b, strong
+        line-height 2.5
+        font-weight bolder
+
+    img
+        display block
+        max-width 100%
+        margin 0 auto
+
+    table
+        tr
+            th
+                padding 8px 20px
+                color th-font
+
+                &:nth-child(2n)
+                    background th-color-dual
+
+                &:nth-child(2n-1)
+                    background th-color-sing
+
+            td
+                padding 8px 20px
+
+                &:nth-child(2n)
+                    background td-color-dual
+
+                &:nth-child(2n-1)
+                    background td-color-sing
+
+        tbody
+            tr
+                border-top 2px solid white
+
+    .markdownIt-Anchor
+        display none
+
+    .language
+        font-family code-font-family
+        position absolute
+        top 0px
+        padding 10px 15px
+        background code-tag
+        box-shadow 1px 1px 0.75rem code-tag-shadow
+        color white
+        font-weight bold
+        font-size 12px
+        border-radius 0 0 10px 10px
+
+    .hljs
+        font-family code-font-family
+        background none
+        line-height 2
+        font-size 13px
+
+        .hljs-built_in
+            color #42a4d6
+
+        .hljs-keyword
+            color #e24279
+
+        .hljs-literal, .hljs-number
+            color #FF9800
+
+        .hljs-doctag, .hljs-string
+            color #009688
+
+        .hljs-comment, .hljs-quote
+            color #9E9E9E
+
+        .hljs-attribute, .hljs-name
+            color red
+
+        .hljs-attr
+            color #525252
+
+        .hljs-class, .hljs-title, .hljs-type
+            color #3f51b5
+
+        .hljs-params, .hljs-variable
+            color #458

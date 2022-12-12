@@ -1,0 +1,88 @@
+# Theme Github link: https://github.com/korilin/hexo-theme-particle
+# Developer: korilin
+
+# html lang
+language: zh
+
+# avatar image url
+head_img: images/icon.png
+
+# home page head info block
+head_block_enable: true
+
+# home page head background style.
+# If you use a picture as background, you must use the css background-image attribute instead of the background attribute.
+# Use image as background ==> home_background: "background-image:url('../home.jpg')"
+# Use a color as background ==> home_background: "background: balck"
+home_background: "background-image:url('/images/home.jpg')"
+
+# image that displays while waiting
+waiting_image: images/waiting124oj.gif
+
+# Particle theme icon is adopts the ant design vue icons
+# Link：https://www.antdv.com/components/icon-cn/
+
+# main menu navigation
+menu:
+  主页:
+    icon:
+      name: home
+      theme: filled
+    src: /
+  关于:
+    icon:
+      name: idcard
+      theme: filled
+    src: /about # 当你的博客root为 '/' 时
+  归档:
+    icon:
+      name: folder
+      theme: filled
+    src: /archives
+  分类:
+    icon:
+      name: book
+      theme: filled
+    src: /categories # 当你的博客root不为 '/'，而是其它时，例如 '/like/'
+  标签:
+    icon:
+      name: tags
+      theme: filled
+    src: /tags
+
+# side info card
+card:
+  enable: true
+  description: ["Extend 124OJ!"]
+  icon_links:
+    github:
+      icon:
+        type: antd-icon
+        name: github
+        theme: filled
+        src:
+      link: https://github.com/Sukwants/ex124OJ
+    greasyfork:
+      icon:
+        type: antd-icon
+        name: tool
+        theme: filled
+        sev:
+      link: https://greasyfork.org/scripts/455093-ex124oj
+  friend_links:
+    124OJ: http://124.221.194.184
+
+# footer info
+footer:
+  since: 2022
+  # Customize the server domain name ICP
+  ICP:
+    enable: false
+    code: 
+
+# giscus, configure in ./layout/script.ejs
+giscus:
+  enable: true
+
+# theme style: full / night / maiden, defalut: full
+style: night

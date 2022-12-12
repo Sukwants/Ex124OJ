@@ -1,0 +1,84 @@
+
+#home-head
+    width 100%
+    height 100vh
+    position relative
+    display flex
+    top 0
+    left 0
+    z-index 100
+    background-repeat no-repeat
+    background-size cover
+    background-position center
+
+    .home-info
+        position relative
+        margin auto
+
+        .info
+            position absolute
+            display flex
+            align-items center
+            justify-content center
+            text-align center
+            color #333333
+            border-radius 50%
+
+        .loop:nth-child(1)
+            border-radius 38% 62% 63% 37% / 41% 44% 56% 59%
+            background #ffffff
+            opacity 0.3
+            transform rotate(30deg)
+            animation loop1 10s linear infinite
+
+        .loop:nth-child(2)
+            border-radius 38% 62% 63% 37% / 41% 44% 56% 59%
+            background #ffffff
+            opacity 0.45
+            transform rotate(60deg)
+            animation loop2 15s linear infinite
+
+        .loop:nth-child(3)
+            border-radius 38% 62% 63% 37% / 41% 44% 56% 59%
+            opacity 0.3
+            background #ffffff
+            transform rotate(90deg)
+            animation loop3 10s linear infinite
+
+        .loop:nth-child(4)
+            border-radius 38% 62% 63% 37% / 41% 44% 56% 59%
+            opacity 0.45
+            background #ffffff
+            transform rotate(120deg)
+            animation loop4 15s linear infinite
+
+@keyframes loop1
+    0%
+        transform rotate(30deg)
+
+    100%
+        transform rotate(390deg)
+
+@keyframes loop2
+    0%
+        transform rotate(60deg)
+
+    100%
+        transform rotate(420deg)
+
+@keyframes loop3
+    0%
+        transform rotate(90deg)
+
+    100%
+        transform rotate(450deg)
+
+@keyframes loop4
+    0%
+        transform rotate(120deg)
+
+    100%
+        transform rotate(480deg)
+
+@import './home-posts'
+@import './home-card'

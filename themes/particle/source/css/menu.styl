@@ -1,0 +1,92 @@
+
+#menu
+    user-select none
+    z-index 105
+    position fixed
+    width 100%
+    line-height 50px
+    font-weight bold
+    transition top 0.5s ease-out
+    background menu-default-background
+    box-shadow 0px -1px 10px 0px #9e9e9e4d
+    top 0
+
+    .desktop-menu
+        height 50px
+
+        .title
+            display inline-block
+            margin-left 30px
+            margin-right 20px
+            font-family default-font-family
+            text-transform uppercase
+            color menu-default-font
+
+        a
+            display inline-block
+            margin-left 30px
+            text-decoration none
+            color menu-default-font
+
+            span
+                display inline-block
+                position relative
+
+                img
+                    position relative
+                    top 3px
+                    width 20px
+                    height 20px
+
+                &:nth-child(1)
+                    margin-right 5px
+
+    .phone-menu
+        min-height 50px
+        text-align center
+        transition all 0.3s ease-out
+
+        .title
+            cursor pointer
+            color menu-default-font
+
+        .items
+            padding 10px 0 20px
+            z-index 104
+            transition all 0.3s ease-out
+
+            a
+                color menu-default-font
+
+            .item
+                min-width 200px
+                width 80%
+                margin auto
+                display flex
+                justify-content center
+
+                &:hover
+                    background #ffffff80
+
+        .curtain
+            position fixed
+            z-index 104
+            width 100%
+            height 100%
+            background #0009
+
+.hidden-menu
+    top -70px !important
+
+.menu-color
+    background menu-index-background !important
+    box-shadow 0px -1px 10px 0px #ffffff00 !important
+
+    .false
+        background #00000033
+
+    .true
+        background #0009 !important
+
+    .title, a
+        color menu-index-font !important
