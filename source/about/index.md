@@ -31,7 +31,7 @@ date: 2022-12-12 17:10:00
 
   1. 在你的 Chrome, Edge, Firefox 浏览器上，安装扩展程序 Tampermonkey。\
      [Chrome 扩展程序](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)\
-     [Egde 扩展程序](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)\
+     [Edge 扩展程序](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)\
      [Firefox 扩展程序](https://addons.mozilla.org/firefox/addon/tampermonkey)\
      [Chrome .crx 文件](./Tampermonkey_4.18.0.crx)
   2. 打开 Greasyfork 上 [Ex124OJ 的发布主页](https://greasyfork.org/scripts/455093-ex124oj)。
