@@ -57,17 +57,13 @@ card:
   icon_links:
     github:
       icon:
-        type: antd-icon
-        name: github
-        theme: filled
-        src:
+        type: img
+        src: https://github.githubassets.com/favicons/favicon.png
       link: https://github.com/Sukwants/ex124OJ
     greasyfork:
       icon:
-        type: antd-icon
-        name: tool
-        theme: filled
-        sev:
+        type: img
+        src: https://greasyfork.org/vite/assets/blacklogo16.bc64b9f7.png
       link: https://greasyfork.org/scripts/455093-ex124oj
   friend_links:
     124OJ: http://124.221.194.184
