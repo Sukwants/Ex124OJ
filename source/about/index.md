@@ -6,12 +6,13 @@ date: 2022-12-12 17:10:00
 
 ## Extend 124OJ!
 
-欢迎来到 Ex124OJ，这是 CDQZ 内部 124OJ 的用户脚本。
+欢迎来到 Ex124OJ，这是 CDQZ 124OJ 的用户脚本。
 
-  - 题目数据下载
-  - 代码内容复制
-  - 背景图片更改
-  - 表格样式修正
+  - 下载数据
+  - 讨论板块
+  - 复制代码
+  - 背景图片
+  - 表格样式
   - ……
 
 <div style="height:512px">
@@ -45,31 +46,14 @@ date: 2022-12-12 17:10:00
 
 发布主页也可以通过在 Tampermonkey 用户脚本管理界面点击 <img src="./button2.png" style="display:inline-block"> 来打开。
 
-## 魔改
+## 个性化
 
-注意，源代码修改过后无法自动更新版本。
+在标题栏中用户名左侧，我们放置了一个按钮 <img src="./ControlPanelEntrance.png" style="display:inline-block">，用以打开控制面板。
 
-打开 Ex124OJ 的源代码，可以观察到 `User Settings` 部分，比如。
-
-```js
-// Special Period
-const WhenMourn = false;
-// Change Page Background. (Image URL, Opacity)
-const BackgroundSettings = [];
-// Change Site Icon. (Image URL)
-const SiteIconImage = undefined;
-// Change username color.
-const NameColorList = {};
-// Add CCF level badge.
-const CCFBadgeList = {};
-// Add name tag badge.
-const TagBadgeList = {};
-```
-
-可以在此更改背景图片，网站图标，名字颜色和 Tag 等。
+<img src="./ControlPanel.png">
 
 ## 致谢
 
 作者：[@Sukwants](https://github.com/Sukwants)
 
-如果你有好的 Idea 并愿意为 Ex124OJ 作贡献，欢迎加入。
+如果你有好的 Idea 并愿意为 Ex124OJ 作贡献，欢迎你的加入。

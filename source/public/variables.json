@@ -1,0 +1,22 @@
+{
+  "NameColorList": {
+    "Sukwants": ["#8e44ad"],
+    "Star32": ["#e74c3c"],
+    "2745518585": ["#996600"],
+    "syysongyuyang": ["#ffc116"],
+    "zsq147258369": ["#52c41a"],
+    "zhouchuan": ["#e74c3c", "#000000"]
+  },
+  "CCFBadgeList": {
+    "zsq147258369": "#52c41a",
+    "syysongyuyang": "#ffc116"
+  },
+  "TagBadgeList": {
+    "Sukwants": ["#8e44ad", "旅客"],
+    "Star32": ["#e74c3c", "陌生人"],
+    "2745518585": ["#996600", "脑车"],
+    "syysongyuyang": ["#ffc116", "原批"],
+    "zsq147258369": ["#52c41a", "boring"],
+    "zhouchuan": ["#e74c3c", "Feyn"]
+  }
+}

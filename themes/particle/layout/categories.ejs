@@ -30,7 +30,9 @@
                 <%- category.name %>
             </a>
         </span>
-        <% if(is_category(category.name)){posts = category.posts} %>
+        <% if(is_category(category.name)){posts = category.posts; posts.data.sort(function(x, y){
+            return y.updated - x.updated;
+        });} %>
         <% }) %>
     </div>
     <div id="archives">
@@ -40,7 +42,7 @@
                 <a-card hoverable>
                     <div class="item-time"><%- date(post.date, 'YYYY/M/D') %></div>
                     <a href="<%- rootlink %><%- post.path %>">
-                        <h3><%= post.title %></h3>
+                        <h3><%= post.title %><% if(post.updated >= new Date('3000-01-01 00:00:00')){ %> <small style="color:#28adca"><i class="fa fa-thumbtack"></i> 置顶</small><% } %></h3>
                     </a>
                     <div class="info">
                         <% if(post.categories && post.categories.data.length!=0){ %>

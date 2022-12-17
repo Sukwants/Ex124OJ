@@ -29,9 +29,9 @@ menu:
       name: home
       theme: filled
     src: /
-  关于:
+  文档:
     icon:
-      name: idcard
+      name: book
       theme: filled
     src: /about # 当你的博客root为 '/' 时
   归档:
@@ -41,7 +41,7 @@ menu:
     src: /archives
   分类:
     icon:
-      name: book
+      name: appstore
       theme: filled
     src: /categories # 当你的博客root不为 '/'，而是其它时，例如 '/like/'
   标签:
@@ -82,3 +82,15 @@ giscus:
 
 # theme style: full / night / maiden, defalut: full
 style: night
+
+# Google Webmaster tools verification.
+# See: https://developers.google.com/search
+google_site_verification: YsqCbTe9xbBrhSNhjw1E0OJOn9dWTRPY567rvsHePI4
+
+# Bing Webmaster tools verification.
+# See: https://www.bing.com/webmasters
+bing_site_verification: 94748806EA0C50CFA5F4171232C6BDF7
+
+# Baidu Webmaster tools verification.
+# See: https://ziyuan.baidu.com/site
+baidu_site_verification: code-nqEM0gNsA9

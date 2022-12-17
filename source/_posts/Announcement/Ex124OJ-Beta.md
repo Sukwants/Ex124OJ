@@ -18,4 +18,6 @@ Ex124OJ 正在努力成长中……
 
 Ex124OJ 主页地址（Greasyfork）：<https://greasyfork.org/scripts/455093-ex124oj>
 
+Ex124OJ 学术版主页地址（Greasyfork）：<https://greasyfork.org/scripts/456557-ex124oj-academic>
+
 Ex124OJ 介绍与安装教程在本站 [关于](/about/) 页面。
