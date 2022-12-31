@@ -6,7 +6,7 @@ date: 2022-12-31 14:00:00
 ---
 
 
-<div style="width:40%">{% asset_img zsq147258369.png '"Legendary Grandmaster zsq147258369" ""' %}</div>
+<div style="width:40%">{% asset_img zsq147258369.png '"" "Legendary Grandmaster zsq147258369"' %}</div>
 
 <!--more-->
 
@@ -14,7 +14,7 @@ New Year Gift!
 
 此时你可以修改你的用户名颜色、钩子、标签，在你本地的显示效果。~~（因为作者没有服务器也不会往服务器存储数据。）~~
 
-{% asset_img settings.png '"控制面板" ""' %}
+{% asset_img settings.png '"" "控制面板"' %}
 
 看到没有？在最后一项，有一个 New Year Magic。
 
@@ -28,7 +28,7 @@ New Year Gift!
 
 就像这样。
 
-{% asset_img settings-filled.png '"控制面板-filled" ""' %}
+{% asset_img settings-filled.png '"" "控制面板-filled"' %}
 
 Hocus Pocus, Abrakadabra!
 
