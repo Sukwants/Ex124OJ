@@ -1,6 +1,6 @@
 ---
 title: Ex124OJ Beta 版本发布
-tags: ['Ex124OJ', 'Beta']
+tags: ['Ex124OJ', 'Release']
 category: Announcements
 date: 2022-11-19 12:00:00
 ---
