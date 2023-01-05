@@ -6,7 +6,7 @@
     "syysongyuyang": ["#ffc116"],
     "zsq147258369": ["#52c41a"],
     "zhouchuan": ["#e74c3c", "#000000"],
-    "2020sq_19": ["#ffffff", "#3498db", "#ffffff", "#3498db", "#ffffff", "#ffffff", "#ffffff", "#ffffff", "#ffffff", "#e74c3c"]
+    "2020sq_19": ["transparent", "#3498db", "transparent", "#3498db", "transparent", "transparent", "transparent", "transparent", "transparent", "#e74c3c"]
   },
   "CCFBadgeList": {
     "zsq147258369": "#52c41a",
